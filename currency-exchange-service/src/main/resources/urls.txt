@@ -1,0 +1,15 @@
+Currency Exchange Service
+http://localhost:8000/currency-exchange/from/USD/to/PKR
+Currency Coversion Service
+http://localhost:8100/currency-coverver/from/USD/to/PKR/quantity/10
+http://localhost:8100/currency-coverver-fiegn/from/USD/to/PKR/quantity/10
+
+Eureka
+http://localhost:8761/
+
+Api GateWay
+http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/PKR
+http://localhost:8765/currency-coversion-service/currency-coverver-fiegn/from/USD/to/PKR/quantity/10
+
+Api Gateway Via Configuration
+http://localhost:8765/currency-exchange/from/USD/to/PKR
