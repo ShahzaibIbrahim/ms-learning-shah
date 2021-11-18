@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ApiGatewayConfiguration {
 
-    @Bean
+   /* @Bean
     public RouteLocator gatewayRouter(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(p-> p.path("/get")
@@ -18,5 +18,5 @@ public class ApiGatewayConfiguration {
                 .uri("lb://currency-exchange-service"))
 
                 .build();
-    }
+    }*/
 }
